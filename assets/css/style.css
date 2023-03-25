@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Alegreya';
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+select {
+    font-family: 'Alegreya';
+}
+
+.container {
+    background-color: transparent;
+    position: relative;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.btn-theam {
+    width: 30rem;
+    height: 6.3rem;
+    display: inline-block;
+    background-color: #C8191C;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 1.2rem;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    margin-right: 5rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+/* ******************* Hero Section **************** */
+
+#hero {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+#hero::before {
+    content: '';
+    background-image: url(../images/hero-banner.png);
+    inset: 0;
+    position: absolute;
+    background-size: 100% 100%;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-data {
+    position: relative;
+    padding-top: 37.7rem;
+    text-align: center;
+
+}
+
+.hero-data h1 {
+    font-weight: 700;
+    font-size: 129px;
+    line-height: 170px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+span {
+    color: #C8191C;
+}
+
+.hero-data p {
+    width: 90.6rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5.5rem 0;
+}
+
+/* ***************************************************/
+
+/* ************** Discover Section ***************** */
+
+#discover {
+    padding: 24.5rem 0 20rem 0;
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+.discover-symbol h3 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 73px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 2rem;
+}
+
+#discover .discover-symbol>* {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover-about {
+    padding: 24.5rem 0 20rem 0;
+    position: relative;
+}
+
+.discover-about p {
+    padding-top: 6rem;
+}
+
+.discover-about h5 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 1.8rem;
+    width: 574px;
+    height: 456px;
+}
+
+.discover-about .btn-theam {
+    margin-top: 10rem;
+}
+
+.discover-about .border-end {
+    padding-right: 11.5rem;
+    border-right-color: 2px solid #FFFFFF;
+}
+
+
+/* ***************Super Section************** */
+
+#super {
+    padding: 24.5rem 0 20rem 0;
+    background: linear-gradient(180deg, #000000 37.37%, #C8191C 231.27%);
+}
+
+#super h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+}
+
+.super-img img {
+    width: 100%;
+    padding-left: 8.8rem;
+}
+
+.col-8 h2 {
+    margin-top: 7rem;
+    padding-left: 10rem;
+}
+
+.super-data p {
+    margin-top: 25px;
+    width: 485px;
+
+}
+
+/* ****************************************** */
+
+/* ************** Services Section ************* */
+
+#services {
+    padding: 24.5rem 0 20rem 0;
+    background: linear-gradient(0deg, #000000 37.37%, #C8191C 231.27%);
+}
+
+#services h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+#services h5 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#services .row {
+    justify-content: center;
+    margin: 150px;
+    gap: 80px;
+}
+
+#services .col-md-5-border {
+    width: 651px;
+    height: 602px;
+    border: solid #FFFFFF 2px;
+    color: #FFFFFF;
+    font-size: 20px;
+    justify-content: center;
+}
+
+#services .col-md-5-border img {
+    padding: 30px 30px 30px 40px;
+}
+
+#services .col-md-5-border h3 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#services .col-md-5-border p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 5rem;
+}
+
+/* ******************************************** */
+
+/*********why section*********/
+
+#why {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding: 20rem 0;
+}
+
+.why-main {
+    justify-content: space-between;
+
+}
+
+#why .why-main .why-data {
+    text-align: center;
+}
+
+
+#why h6 {
+    text-align: center;
+}
+
+#why h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.why-data {
+    width: 41rem;
+    height: 30.2rem;
+    padding-top: 17.2rem;
+    
+}
+
+.why-data h4 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 3rem 0;
+}
+
+.why-data img {
+    margin: 0 auto;
+}
+
+
+/* ************************************************** */
+
+@media screen and (min-width: 1650px) {
+    .container {
+        max-width: 150rem;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    .container {
+        max-width: 170rem;
+    }
+}
