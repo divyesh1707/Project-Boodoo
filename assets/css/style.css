@@ -274,11 +274,11 @@ h6 {
 }
 
 #services .row>*:nth-child(odd) {
-    padding: 7.5rem 7.5rem 15rem 4.2rem;
+    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
 }
 
 #services .row>*:nth-child(even) {
-    padding: 7.5rem 7.5rem 15rem 4.2rem;
+    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
 }
 
 /* ******************************************** */
@@ -395,7 +395,7 @@ h2 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 648px;
+    margin-left: 64.8rem;
 }
 
 
