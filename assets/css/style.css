@@ -373,11 +373,6 @@ h2 {
     display: flex;
 }
 
-#science .row>*:nth-child(2) {
-    /* padding-left: 8.1rem ;
-    padding-right: 8.1rem ; */
-}
-
 .justify-content-start {
     justify-content: flex-start !important;
     column-gap: 81px;
@@ -390,13 +385,62 @@ h2 {
     padding-top: 10rem;
 }
 
-#science .btn-theam{
+#science .btn-theam {
     margin-top: 10rem;
-    flex-direction: row;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 64.8rem;
 }
+
+.client .partner-main-row {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client h6 {
+    margin-bottom: 1.5rem;
+}
+
+.client h5 {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 136px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* *************************************************** */
+
+/* **************** Appointment Section ************** */
+
+#appointment {
+    /* margin-top: 424px; */
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+
+}
+
+#appointment h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
+    margin-top: 424px;
+}
+
+#appointment h3 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+
+
 
 
 
