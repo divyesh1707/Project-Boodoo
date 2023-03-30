@@ -523,22 +523,114 @@ h2 {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 6rem;
 }
-.become-main .btn-theam{
-    width: 300px;
-    height: 63px;
+
+.become-main .btn-theme {
     background-color: #C8191C;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+/* *************************************************** */
+
+/* ***************Membership Section***************** */
+
+#membership {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding: 0 0 20rem 0;
+}
+
+#membership h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C8191C;
+    padding-top: 20rem;
+}
+
+#membership h3 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
+#membership .container .row {
+    justify-content: center;
+    gap: 10rem;
+    padding-top: 8rem;
+}
 
+#membership .container .col-md-4-border {
+    width: 466px;
+    height: 706px;
+    border: 2px solid white;
+    padding: 60px 77px 60px 50px;
+    position: relative;
+}
 
+#membership .container .col-md-4-border h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
+#membership .container .col-md-4-border span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
+#membership .col-md-4-border ul li {
+    display: flex;
+    gap: 2rem;
+    line-height: 2rem;
+    padding-top: 4.2rem;
+    align-items: center;
+}
 
+#membership .col-md-4-border ul li img {
+    width: 48px;
+    height: 48px;
+}
 
+#membership .col-md-4-border ul li img p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 
-
+#membership .btn-theme {
+    background-color: #C8191C;
+    color: #FFFFFF;
+    padding: 20px 82px 20px 95px;
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    top: 60rem;
+    left: 7rem;
+}
+#membership .col-md-4-border:hover{
+    background-color: #C8191C;
+}
+#membership .col-md-4-border:hover .btn-theme{
+    background-color: #FFFFFF;
+    color: #C8191C;
+}
 
 /* *************************************************** */
 
