@@ -382,7 +382,7 @@ h2 {
 .justify-content-end {
     justify-content: flex-end !important;
     column-gap: 81px;
-    padding-top: 10rem;
+    padding-top: 0rem !important;
 }
 
 #science .btn-theam {
@@ -539,7 +539,7 @@ h2 {
 /* ***************Membership Section***************** */
 
 #membership {
-    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000000 151.34%);
     padding: 0 0 20rem 0;
 }
 
@@ -635,6 +635,222 @@ h2 {
 }
 
 /* *************************************************** */
+
+/****************our section**************************/
+
+#our {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+    position: relative;
+}
+
+#our h2 {
+    text-align: center;
+    max-width: 144.6rem;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 140px;
+    color: #FFFFFF;
+}
+
+#our .our-1 h2::after {
+    content: '';
+    position: absolute;
+    width: 345px;
+    height: 0px;
+    left: 0px;
+    top: 700px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+#our .our-1 img {
+    margin: 0 auto;
+    padding: 10rem 0 15rem 0;
+}
+
+.our-swiper .our-data h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: start;
+    color: #FFFFFF;
+    padding-top: 1.5rem;
+}
+
+.our-main .our-data p {
+    padding-top: 10.9rem;
+}
+
+.our-main .our-data {
+    width: 47.6rem;
+}
+
+.our-swiper {
+    margin-left: 25rem;
+    /* margin-right: 2rem; */
+}
+
+.our-btn {
+    position: relative;
+    z-index: 9;
+}
+
+.our-btn .prev-1 {
+    left: 7rem;
+    color: #fff;
+}
+
+.our-btn .next-1 {
+    right: 0rem;
+    color: #fff;
+}
+
+.our-btn .next-1,
+.our-btn .prev-1 {
+    position: absolute;
+    width: 7rem;
+    top: 25rem;
+}
+
+.prev-1:after {
+    content: 'prev';
+}
+
+.next-1:after {
+    content: 'next';
+}
+
+.our-btn .prev-1::after,
+.our-btn .next-1::after {
+    font-family: swiper-icons;
+    font-size: 2.7rem;
+    text-transform: none !important;
+    letter-spacing: 0;
+    color: #fff;
+    font-variant: initial;
+    line-height: 1;
+}
+
+#our .our-main::before {
+    background: url(../images/“.png);
+    content: '';
+    inset: 0;
+    position: absolute;
+    /* opacity: 0.1; */
+    top: 30rem;
+    right: 20rem;
+    position: absolute;
+    z-index: 9;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* ************************************************* */
+
+/********blog section**********/
+
+#blog {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    padding: 16.9rem 0 20rem 0;
+}
+
+
+#blog h6 {
+    text-align: center;
+}
+
+#blog h3 {
+    text-align: center;
+    margin-bottom: 8rem;
+    font-weight: 700;
+    font-size: 84px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#blog .blog-main h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 29.8rem;
+    padding: 6rem 0 2rem 0;
+    text-align: start;
+}
+
+#blog .blog-main p {
+    width: 36.1rem;
+}
+
+
+#blog .blog-main span {
+    color: #0085FF;
+}
+
+/******************************************************/
+
+/****************footer section***********************/
+
+/* #footer{
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-main .boodoo{
+    width: 14%;
+}
+.footer-main .services{
+    width: 11%;
+}
+
+.footer-main p{
+    padding-top: 2rem;
+}
+
+.footer-main h5{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+}
+
+.footer-main .contact i{
+    color: #fff;
+    font-size: 2.4rem;
+    padding-right: 2rem;
+}
+
+.footer-main .contact ul li{
+    display: flex;
+}
+
+.footer-main .contact ul li a{
+    display: flex;
+    
+}
+
+.footer-main .contact ul li a p{
+    padding: 0;
+}
+
+.footer-main .contact ul li{
+    padding-top: 2rem;
+}
+
+
+
+.footer-main .maps h5{
+    padding-bottom: 2rem;
+    text-align: start;
+} */
+
+/****************************/
 
 /* *************************************************** */
 
