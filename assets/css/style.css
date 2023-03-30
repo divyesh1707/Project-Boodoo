@@ -624,10 +624,12 @@ h2 {
     top: 60rem;
     left: 7rem;
 }
-#membership .col-md-4-border:hover{
+
+#membership .col-md-4-border:hover {
     background-color: #C8191C;
 }
-#membership .col-md-4-border:hover .btn-theme{
+
+#membership .col-md-4-border:hover .btn-theme {
     background-color: #FFFFFF;
     color: #C8191C;
 }
