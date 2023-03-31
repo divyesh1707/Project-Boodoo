@@ -336,12 +336,14 @@ h6 {
 #science {
     padding-top: 20rem;
     padding-bottom: 20rem;
-    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    background: linear-gradient(0deg, #000000 1%, #C8191C
+    274.79%);
+
 }
 
 #science h6,
 h2 {
-    text-align: center;
+    /* text-align: center; */
     align-items: center;
 }
 
@@ -487,7 +489,7 @@ h2 {
 /* *******************Become Section ****************** */
 
 #become {
-    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    background: linear-gradient(0deg, #000000 1%, #C8191C 223.16%);
     position: relative;
 
 }
@@ -506,7 +508,7 @@ h2 {
     content: '';
     inset: 0;
     position: absolute;
-    background-size: 100% 100%;
+    background-size: 80% auto;
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.1;
@@ -640,7 +642,6 @@ h2 {
 
 #our {
     background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
-    position: relative;
 }
 
 #our h2 {
@@ -652,18 +653,7 @@ h2 {
     color: #FFFFFF;
 }
 
-#our .our-1 h2::after {
-    content: '';
-    position: absolute;
-    width: 345px;
-    height: 0px;
-    left: 0px;
-    top: 700px;
-    border: 2px solid #FFFFFF;
-    transform: rotate(90deg);
-}
-
-#our .our-1 img {
+#our .our-1 > img {
     margin: 0 auto;
     padding: 10rem 0 15rem 0;
 }
@@ -679,6 +669,7 @@ h2 {
 
 .our-main .our-data p {
     padding-top: 10.9rem;
+  
 }
 
 .our-main .our-data {
@@ -686,10 +677,12 @@ h2 {
 }
 
 .our-swiper {
-    margin-left: 25rem;
+    margin-left: 22rem;
     /* margin-right: 2rem; */
 }
-
+.our-main{
+    padding-left: 4rem;
+}
 .our-btn {
     position: relative;
     z-index: 9;
@@ -731,14 +724,14 @@ h2 {
     line-height: 1;
 }
 
-#our .our-main::before {
+#our .our-main::before{
     background: url(../images/“.png);
     content: '';
     inset: 0;
     position: absolute;
     /* opacity: 0.1; */
-    top: 30rem;
-    right: 20rem;
+    top: 44rem;
+    right: 61rem;
     position: absolute;
     z-index: 9;
     background-position: center;
@@ -792,65 +785,82 @@ h2 {
 
 /****************footer section***********************/
 
-/* #footer{
+#footer {
+    padding-bottom: 15.1rem;
     background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
 }
 
-.footer-main{
-    display: flex;
-    justify-content: space-between;
+
+#footer .container {
+    border-bottom: 2px solid white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#footer .services ul, .link ul, .contact ul{
+    padding-left: 0;
 }
 
-.footer-main .boodoo{
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    border-top: 2px solid white;
+}
+
+.footer-main .boodoo {
     width: 14%;
 }
-.footer-main .services{
+
+.footer-main .services {
     width: 11%;
 }
 
-.footer-main p{
+.footer-main p {
     padding-top: 2rem;
 }
 
-.footer-main h5{
+.footer-main h5 {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     text-transform: uppercase;
-    color: #FFFFFF; 
+    color: #FFFFFF;
 }
 
-.footer-main .contact i{
+.footer-main .contact i {
     color: #fff;
     font-size: 2.4rem;
     padding-right: 2rem;
 }
 
-.footer-main .contact ul li{
+.footer-main .contact ul li {
     display: flex;
 }
 
-.footer-main .contact ul li a{
+.footer-main .contact ul li a {
     display: flex;
-    
+
 }
 
-.footer-main .contact ul li a p{
+.footer-main .contact ul li a p {
     padding: 0;
 }
 
-.footer-main .contact ul li{
+.footer-main .contact ul li {
     padding-top: 2rem;
 }
 
-
-
-.footer-main .maps h5{
+.footer-main .maps h5 {
     padding-bottom: 2rem;
     text-align: start;
-} */
+}
+#footer .container .copy-right{
+    text-align: center;
+    padding-bottom: 1rem;
+}
 
-/****************************/
+/*****************************************************/
 
 /* *************************************************** */
 
