@@ -120,7 +120,7 @@ header nav ul li a {
 
 }
 
-.hero-data h1 {
+.hero-data span {
     font-weight: 700;
     font-size: 129px;
     line-height: 170px;
@@ -128,7 +128,14 @@ header nav ul li a {
     color: #FFFFFF;
 }
 
-span {
+.rotate-1 span{
+    color: #FFFFFF;
+}
+
+.is-visible{
+    color: #C8191C;
+}
+.cd-words-wrapper{
     color: #C8191C;
 }
 
@@ -138,6 +145,16 @@ span {
     margin: 0 auto;
     padding: 5.5rem 0;
 }
+
+.cd-words-wrapper{
+    position: relative;
+}
+
+canvas{
+    position: absolute;
+    top: 0;
+}
+
 
 /* ***************************************************/
 
