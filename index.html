@@ -16,12 +16,11 @@
 </head>
 
 <body>
-    <header>
+    <header id="main-header">
         <div class="container">
             <a href="">
                 <img src="./assets/images/logo (3).png" alt="">
             </a>
-
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -46,7 +45,7 @@
                                 <b>STEAK</b>
                             </span>
                         </h1>
-                    </div>
+                    </div>  
                 </div>
             </div>
         </section>
@@ -586,14 +585,14 @@
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
+    
     <script>
         var kursorx = new kursor({
             type: 1,
             color: 'rgba(200,100,0)'
-        })
-
+        });
     </script>
+
     <script>
         var swiper = new Swiper(".our-swiper", {
             slidesPerView: 1,
@@ -621,6 +620,19 @@
                 },
             },
         });
+    </script>
+
+    <script>
+        window.onscroll = function () {
+
+            console.log(window.scrollY);
+            if (window.scrollY > 20) {
+                document.getElementById("main-header").classList.add("dark-header")
+            } else {
+                document.getElementById("main-header").classList.remove("dark-header")
+
+            }
+        }
     </script>
 
 </body>
